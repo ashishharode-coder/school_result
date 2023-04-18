@@ -1,0 +1,4 @@
+calculate_dailyStatus_job:
+  cron:  "0 18 * * *"
+  class: "CalculateDailyStatusJob" 
+  queue: default
